@@ -1,6 +1,7 @@
 /* Jacob Kloepper
  * November 13, 2020
  * Kattis problem: faktor
+ *  Link: https://open.kattis.com/problems/faktor
  */
 
 #include <iostream>

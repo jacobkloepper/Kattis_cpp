@@ -1,6 +1,7 @@
 /* Jacob Kloepper
  * November 14, 2020
  * Kattis problem: fractionallotion
+ *	Link: https://open.kattis.com/problems/fractionallotion
 */
 
 #include <iostream>

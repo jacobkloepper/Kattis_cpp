@@ -1,6 +1,7 @@
 /* Jacob Kloepper
  * November 14, 2020
  * Kattis problem: sibice
+ *	Link: https://open.kattis.com/problems/sibice
 */
 
 #include <iostream>
