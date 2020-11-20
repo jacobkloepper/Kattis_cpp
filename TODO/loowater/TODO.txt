@@ -1,4 +1,0 @@
-Issues:
-	- Seems to pass tests well, but fails test 2 on kattis with CPU time-out.
-	
-	- Different data structures?

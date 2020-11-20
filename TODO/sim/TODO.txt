@@ -1,3 +1,0 @@
-Issues
-	- Some issues with '[' in particular. 
-	- Should analyze the entire system to make sure everything is well.

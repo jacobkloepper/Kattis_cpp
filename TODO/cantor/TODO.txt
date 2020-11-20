@@ -1,6 +1,0 @@
-Issues:
-	- Getting ternary representation
-	- Prove that it repeats
-	- Prove that it terminates
-	
-	- Approach problem differently?
