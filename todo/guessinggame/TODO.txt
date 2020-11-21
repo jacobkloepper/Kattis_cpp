@@ -1,0 +1,4 @@
+Issues:
+	- Passes only some tests.
+	- Write your own, check things out.
+	- Check weird cases.
