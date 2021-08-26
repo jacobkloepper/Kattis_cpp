@@ -15,10 +15,11 @@ int main() {
 	
 	/*
 		Idea: The sequential XORing of natural numbers has some key patterns. Let ^[1..m] denote this function (ie., ^[1..m] := 1^2^3^...^(m-1)^m).
-			1. For m | m%4==0: ^[1..m] = m
-			2. For m | m%4==1: ^[1..4*floor(m/4)-1,m] = m
-			3. For m | m%4==2: ^[2..m] = m
-			4. For m | m%4==3: ^[1..(m-1)] = m 
+			1 . For m | m%4==0: ^[1..m] = m
+			2 . For m | m%4==1: ^[1..4*floor(m/4)-1,m] = m
+			3a. For m | m%4==2: ^[1..m] = m+1
+			3b. For m | m%4==2: ^[2..m] = m
+			4 . For m | m%4==3: ^[1..(m-1)] = m 
 			
 			To illustrate, consider:
 			
@@ -33,7 +34,7 @@ int main() {
 			 	|   7	|	0111	|	0	0000	|	3	|
 				|   8	|	1000	|	8	1000	|	4	|
 				
-			If it is unclear, play with it. Try to see how each equation above relates. Hint: (4) directly gives you (1), and (3) is a little weird.
+			If it is unclear, play with it. Try to see how each equation above relates. Hint: (4) directly gives you (1).
 			
 		We are confident that equations (1-4) provide the largest solution sets.
 	*/
